@@ -200,6 +200,24 @@ h3 {
   width: 100%;
 }
 
+/*Blocks*/
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.block{
+  text-align: center;
+}
+.block__title{
+  margin: 0;
+
+}
+/* .block__img{
+  width: 100%;
+} */
+/*Blocks*/
+
 /*About*/
 
 
@@ -247,6 +265,12 @@ h3 {
   .about__img {
     grid-column: 2/3;
   }
+}
+
+@media (min-width: 768px) {
+.blocks{
+  grid-template-columns: repeat(4, 1fr);
+}
 }
 
 /*Responsivenes*/
