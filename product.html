@@ -21,19 +21,32 @@
       </a>
     </header>
     <nav class="nav">
-      <a class="nav__link" href="index.html">Store</a>
-      <a class="nav__link nav__link--active" href="about.html">About</a>
+      <a class="nav__link nav__link--active" href="index.html">Store</a>
+      <a class="nav__link" href="about.html">About</a>
     </nav>
     <main class="container">
       <h1 id="title-product"></h1>
 
       <div class="product__details">
         <img id="img-product" class="product__details_img" src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum hic
-          eveniet quam eum quisquam animi deleniti illum possimus nihil alias?
-        </p>
-        <form class="form" action=""></form>
+        <div class="product__details_content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            nobis recusandae alias minus quia corporis in ullam illum, commodi
+            reprehenderit ut doloremque reiciendis amet voluptatum soluta
+            temporibus odit facilis maiores!
+          </p>
+          <form class="form" action="">
+            <select class="form__field" name="" id="">
+              <option class="option" disabled>Seleccionar talla</option>
+              <option class="option" value="s">Chica</option>
+              <option class="option" value="m">Mediana</option>
+              <option class="option" value="lg">Grande</option>
+            </select>
+            <input class="form__field" type="number" name="" id="" min="1" />
+            <input class="form__submit" type="submit" value="Add to cart" />
+          </form>
+        </div>
       </div>
     </main>
     <footer class="footer">
